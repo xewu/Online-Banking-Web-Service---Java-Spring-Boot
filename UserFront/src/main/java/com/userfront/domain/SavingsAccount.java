@@ -26,35 +26,37 @@ public class SavingsAccount {
     @JsonIgnore
     private List<SavingsTransaction> savingsTransactionList;
 
-	public Long getId() {
-		return id;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public int getAccountNumber() {
-		return accountNumber;
-	}
+    public int getAccountNumber() {
+        return accountNumber;
+    }
 
-	public void setAccountNumber(int accountNumber) {
-		this.accountNumber = accountNumber;
-	}
+    public void setAccountNumber(int accountNumber) {
+        this.accountNumber = accountNumber;
+    }
 
-	public BigDecimal getAccountBalance() {
-		return accountBalance;
-	}
+    public BigDecimal getAccountBalance() {
+        return accountBalance;
+    }
 
-	public void setAccountBalance(BigDecimal accountBalance) {
-		this.accountBalance = accountBalance;
-	}
+    public void setAccountBalance(BigDecimal accountBalance) {
+        this.accountBalance = accountBalance;
+    }
 
-	public List<SavingsTransaction> getSavingsTransactionList() {
-		return savingsTransactionList;
-	}
+    public List<SavingsTransaction> getSavingsTransactionList() {
+        return savingsTransactionList;
+    }
 
-	public void setSavingsTransactionList(List<SavingsTransaction> savingsTransactionList) {
-		this.savingsTransactionList = savingsTransactionList;
-	}
+    public void setSavingsTransactionList(List<SavingsTransaction> savingsTransactionList) {
+        this.savingsTransactionList = savingsTransactionList;
+    }
+
+
 }

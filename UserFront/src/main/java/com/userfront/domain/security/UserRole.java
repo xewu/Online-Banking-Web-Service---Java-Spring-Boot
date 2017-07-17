@@ -4,10 +4,6 @@ import com.userfront.domain.User;
 
 import javax.persistence.*;
 
-/**
- * Created by z00382545 on 10/20/16.
- */
-
 @Entity
 @Table(name="user_role")
 public class UserRole {
